@@ -1,0 +1,40 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+
+button {
+  font-size: x-large;
+}
+
+#display {
+  background-color: darkgrey;
+  width: 100%;
+  text-align: end;
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: x-large;
+}
+
+#clear {
+  grid-column: span 2;
+}
+
+#numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  aspect-ratio: 1;
+  margin: 0;
+}
+
+#actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  aspect-ratio: 2;
+}
